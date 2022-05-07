@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Javascript en Práctica - Calculadora</title>
+    <!--  Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Raleway:wght@100;300;600&display=swap"
+        rel="stylesheet">
+    <!--  FontAwesome  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--  Main Style  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="calculadora">
+
+    <main class="main-wrapper">
+
+        <div class="chat-wrapper">
+
+            <div class="chat-contacts">
+                <div class="profile">
+                    <div class="profile__info active">
+                        <div class="profile__image">
+                            <img src="assets/img/js-logo.png" alt="Avatar">
+                        </div>
+                        <div class="profile__name">
+                            <p class="name">Javascript en Práctica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="nav">
+                        <ul class="nav-list">
+                            <li><a href="index.html">Calculadora</a></li>
+                            <li><a href="colorpicker.html">Colorpicker</a></li>
+                            <li><a class="active" href="calculadora.html">Calculadora</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="content" class="content">
+                <h1 class="content__title">Calculadora</h1>
+                
+                <div class="content__input">
+                    <div class="input-item">
+                        <input type="number" min="1" id="numero_uno">
+                    </div>
+                    <div class="input-item">
+                        <input type="number" min="1" id="numero_dos">
+                    </div>
+                    <div class="input-item">
+                        <button id="suma">Sumar</button>
+                    </div>
+                    <div class="input-item">
+                        <button id="resta">Restar</button>
+                    </div>
+                </div>
+
+                <div id="resultado" class="content__output">
+                    <div class="output-item">
+                        <div id="resText" class="output-item__text"></div>
+                        <div class="output-item__res">
+                            <span id="resNumber"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/calculadora.js"></script>
+
+</body>
+
+</html>

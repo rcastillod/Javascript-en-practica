@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Javascript en Práctica - Colorpicker</title>
+    <!--  Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Raleway:wght@100;300;600&display=swap"
+        rel="stylesheet">
+    <!--  FontAwesome  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--  Main Style  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="colorpicker">
+
+    <main class="main-wrapper">
+
+        <div class="chat-wrapper">
+
+            <div class="chat-contacts">
+                <div class="profile">
+                    <div class="profile__info active">
+                        <div class="profile__image">
+                            <img src="assets/img/js-logo.png" alt="Avatar">
+                        </div>
+                        <div class="profile__name">
+                            <p class="name">Javascript en Práctica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="nav">
+                        <ul class="nav-list">
+                            <li><a href="index.html">Valida Formulario</a></li>
+                            <li><a class="active" href="colorpicker.html">Colorpicker</a></li>
+                            <li><a href="calculadora.html">Calculadora</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="content" class="content">
+                <h1 class="content__title">Colorpicker</h1>
+                
+                <div class="content__output">
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #E53E3E"></button>
+                    </div>
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #DD6B20"></button>
+                    </div>
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #FAF089"></button>
+                    </div>
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #48BB78"></button>
+                    </div>
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #81E6D9"></button>
+                    </div>
+                    <div class="output-item">
+                        <button class="btn-color" style="background-color: #D53F8C"></button>                        
+                    </div>
+                </div>
+                <div id="messageColor" class="message-color"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/colorpicker.js"></script>
+
+</body>
+
+</html>
